@@ -1,0 +1,222 @@
+
+
+
+.nf-form-content .listselect-wrap .nf-field-element div, .nf-form-content input.ninja-forms-field, .nf-form-content select.ninja-forms-field:not([multiple]) {
+    height: 55px !important;
+}
+div#nf-field-47-wrap {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 15px;
+    align-content: center;
+    align-items: center;
+}
+div#nf-field-46-container {
+    padding-bottom: 15px;
+}
+
+#nf-field-48 {
+    background-color: unset;
+    color: #DF991B;
+    padding: 5px 30px;
+    border-radius: 100px !important;
+    letter-spacing: 3px;
+    border: 1px solid #DF991B;
+    font-size: 17px;
+    font-family: brandon-grotesque;
+    font-weight: 390;
+    margin-top: 0.6vw;
+}
+#nf-field-48:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #26282B;
+    border: 1px solid #26282B;
+}
+
+#nf-label-field-46, #nf-label-field-47{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: brandon-grotesque, sans-serif;
+}
+
+#nf-field-46, #nf-field-47{
+    padding-top: 0;
+    padding-bottom: 2px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 25px;
+    background-color: transparent !important;
+}
+
+
+#nf-field-47, #nf-field-46{
+    border: 1px solid #7E7E7E;
+    border-radius: 100px;
+}
+
+#nf-field-46{
+    border-radius: 100px;
+}
+
+.nf-error.field-wrap .nf-field-element::after {
+    background: none !important;
+}
+
+.ninja-forms-req-symbol {
+    color: #DF991B !important;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+.nf-error .ninja-forms-field {
+    border-color: #DF991B !important;
+    font-family: brandon-grotesque;
+}
+.nf-error.field-wrap .nf-field-element::after {
+    width: auto !important;
+    top: 0px;
+    right: 3%;
+}
+ .nf-field-element::after {
+    content: none !important;
+}
+#nf-error-46, #nf-error-47/*, #nf-label-field-47*/ {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.nf-field-container {
+    margin-bottom: 10px !important;
+}
+
+@media (max-width: 835px) {
+    #nf-field-48 {
+        margin-top: 1.6vw;
+    }
+}
+
+@media(max-width: 575px){
+    .nf-field-container .nf-field-element {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.nf-form-fields-required {
+    display: none !important;
+    visibility: hidden !important;
+}
+.label-above .nf-field-element, .label-below .nf-field-element {
+    display: flex;
+    justify-content: end;
+}
+
+#nf-field-46-wrap{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: baseline;
+    column-gap: 15px;
+}
+.nf-form-content .label-above .nf-field-label, .nf-form-content .label-below .nf-field-label, .nf-form-content .label-hidden .nf-field-label {
+    margin-bottom: 0 !important;
+    padding: 0;
+}
+
+#nf-field-46-wrap .nf-error.field-wrap .nf-field-element:nth-child(1) ::after{
+    top: -8px !important;
+}
+
+#nf-field-46-container {
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+
+
+
+span.ninja-forms-req-symbol {
+    float: left !important;
+    margin-left: 25px !important;
+}
+
+.nf-response-msg p {
+    color: #DF991B;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 330;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+@media (min-width: 2500px) {
+     #nf-label-field-46, #nf-label-field-47 {
+        font-size: 0.7vw !important;
+    }
+    #nf-field-47, #nf-field-46 {
+        font-size: 0.7vw !important;
+    }
+
+    #nf-field-46 {
+        height: 2.5vw !important;
+    }
+
+    #nf-field-47 {
+        height: 2.5vw !important;
+    }
+
+    .nf-error.field-wrap .nf-field-element::after {
+        top: 0.2vw !important;
+    }
+
+    .ninja-forms-req-symbol {
+        font-size: 0.8vw !important;
+    }
+
+    .nf-form-content .listselect-wrap .nf-field-element div,
+    .nf-form-content input.ninja-forms-field, .nf-form-content select.ninja-forms-field:not([multiple]) {
+        height: auto !important;
+    }
+}
+/*Style to ninja form END*/
+
+.estate-content:hover > div .country-real-estate::before{
+    content: url("../IMG/castHov60per.svg");
+    margin-right: 10px;
+}
+.house-content:hover > div .country-real-estate::before{
+    content: url("../IMG/HouseType26.svg");
+    margin-right: 10px;
+}
+.condo-content:hover > div .country-real-estate::before{
+    content: url("../IMG/CondoType26.svg");
+    margin-right: 10px;
+}
+.apartment-content:hover > div .country-real-estate::before{
+    content: url("../IMG/ApartmentType26.svg");
+    margin-right: 10px;
+}
+
+@media (min-width: 3500px) {
+    .house-content:hover > div .country-real-estate::before{
+        content: url("../IMG/HouseIconRE.svg");
+        margin-right: 10px;
+    }
+    .condo-content:hover > div .country-real-estate::before{
+        content: url("../IMG/CondominiumIconRe.svg");
+        margin-right: 10px;
+    }
+    .apartment-content:hover > div .country-real-estate::before{
+        content: url("../IMG/ApartmentIconRe.svg");
+        margin-right: 10px;
+    }
+}
+
+
